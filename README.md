@@ -4,7 +4,6 @@ _______________________________________
 
 [![workflow](https://github.com/VichiesUA/homework__Flask__routes__Stas_Yatsyn1/actions/workflows/workflow.yml/badge.svg)](https://github.com/VichiesUA/homework__Flask__routes__Stas_Yatsyn1/actions/workflows/workflow.yml)
 
-
 ## 🏠 Homework
 
 Homework related actions.
