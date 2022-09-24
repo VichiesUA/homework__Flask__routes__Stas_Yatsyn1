@@ -1,8 +1,9 @@
 import csv
-from flask import Flask
-from faker import Faker
-import requests
 from random import randint
+
+import requests
+from faker import Faker
+from flask import Flask
 
 fake = Faker()
 app = Flask(__name__)
@@ -66,7 +67,7 @@ def statistics():
         return (
             f"<h1>Середній ріст ==> {round(m_height, 2)} см.</h1><br>"
             f"<h1>Середня вага ==> {round(m_weight, 2)} кг.</h1><br>"
-            f"<h1>Кількість людей ==> {count_of_index}</h1><br>"
+            f"<h1>Кількість людей==> {count_of_index}</h1><br>"
         )
 
 
