@@ -38,7 +38,13 @@ def write_file_in_web():
 @app.route('/generate-users')
 def generate_users():
     # Сторінка створення фейкових пошт
-    for _ in range(randint(1, 20)):
+    for _ in range(randint(1, 100)):
+        yield f'{fake.free_email()} <br>'
+
+
+@app.route('/generate-users/<count>')
+def generate_users1(count):
+    for _ in range(int(count)):
         yield f'{fake.free_email()} <br>'
 
 
