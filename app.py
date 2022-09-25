@@ -45,7 +45,7 @@ def generate_users():
 @app.route('/generate-users/<count>')
 def generate_users1(count):
     for _ in range(int(count)):
-        yield f'{fake.free_email()}<br>'
+        yield f'{fake.free_email()} <br>'
 
 
 @app.route('/space')
